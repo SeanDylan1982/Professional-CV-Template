@@ -105,7 +105,7 @@
     justify-content: left;
     overflow: auto;
     padding-left: 20px;
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.7);
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.4);
     .icon {
         font-size: 1.1rem;
         font-weight: 500;
@@ -171,16 +171,12 @@
     justify-content: center;
     position: absolute;
     padding-top: 263px;
-    flex-direction: column;
     // Left side Column for Code Skills etc
     .left-column {
-        flex: 1;
-        display: grid;
-        flex-direction: column;
+        position: relative;
         margin: 0 !important;
         padding: 1px;
         padding-top: 5px;
-        padding-left: 3px;
         z-index: 1;
         max-width: 160px;
         // Column Section Heading
@@ -189,13 +185,11 @@
             text-decoration: underline;
             padding-bottom: 11px;
             padding-top: 11px;
-            padding-left: 11px;
+            padding-left: 14px;
             box-shadow: 0 3px 8px rgba(0, 0, 0, 0.7);
             align-items: center;
             justify-content: center;
-            margin-left: 3px;
             margin-bottom: 15px;
-            width: 95%;
         }
         // Column Sections
         .code {
@@ -350,22 +344,32 @@
     }
     // Right side column section of main body
     .right-column {
-        flex: 3;
-        display: grid;
         margin: 3px !important;
         padding: 1px;
-        height: 2440px;
-        width: 609px;
+        height: 1910px;
+        width: 608px;
         position: absolute;
         left: 165px;
         top: 266px;
         box-shadow: 0 3px 8px rgba(0, 0, 0, 0.7);
+        section {
+            box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+            padding-bottom: 15px !important;
+            .education-certification 
+            .working-experience 
+            .references {
+                position: absolute;
+                padding-top: 20px;
+            }
+        }
         // Icon formatting
         i {
-            position: absolute;
-            left: -10px;
-            height: 18px;
-            width: 18px;
+            position: relative;
+            left: -18px;
+            top: 31px;
+            height: 22px;
+            width: 22px;
+            font-size: 1.5rem;
             border-radius: 50%;
             background-color: var(--color-white);
             align-items: center;
@@ -375,33 +379,35 @@
         h4 {
             font-size: 1.5rem;
             font-weight: 600;
-            padding-top: 5px;
+            padding-top: 1px;
             padding-left: 15px;
-            padding-bottom: 5px;
+            padding-bottom: 1px;
             margin-bottom: 25px;
             box-shadow: 0 3px 8px rgba(0, 0, 0, 0.7);
             width: 99%;
             justify-content: center;
+            position: relative;
         }
         // Highlighted title with alternate text color
         span {
-            position: absolute;
+            position: relative;
             left: 26px;
             padding-left: 5px;
             padding-right: 5px;
-            padding-bottom: 10px;
+            padding-bottom: 1px;
             padding-top: 2px;
             color: var(--color-white);
             background-color: #41729c;
             border-radius: 5%;
-            height: 27px;
+            height: 29px;
             box-shadow: 0 3px 10px rgba(0, 0, 0, 0.7);
         }
         // Secondary section title
         h5 {
-            font-size: .95rem;
+            position: relative;
+            font-size: .85rem;
             font-weight: 600;
-            padding-top: 35px;
+            padding-top: 10px;
             padding-left: 22px;
             width: 95%;
             justify-content: center;
@@ -413,7 +419,7 @@
         p {
             font-size: .8rem;
             font-weight: 400;
-            padding-bottom: 20px;
+            padding-bottom: 10px;
             padding-top: 3px;
             padding-left: 22px;
             width: 95%;
