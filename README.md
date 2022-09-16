@@ -5,6 +5,9 @@ Free to use, modify, etc, for personal and commercial use.
 
 [Curriculum Vitae _ Your Name Here.pdf](https://github.com/SeanDylan1982/Professional-CV-Template/files/9586358/Curriculum.Vitae._.Your.Name.Here.pdf)
 
-![Cover-1](https://user-images.githubusercontent.com/74496368/190376795-b5966e6f-1d33-4927-b330-3dd3cdfd58b8.png)
-![Cover-2](https://user-images.githubusercontent.com/74496368/190376807-a7e3392e-8c2c-4c67-a27a-389f2370ff09.png)
-![Cover-3](https://user-images.githubusercontent.com/74496368/190376817-ccb64495-7ace-4ca3-8366-02edd6cda09e.png)
+I refactored the code to display correctly when printing.
+Print to .pdf straight from the page!
+
+![Cover](https://user-images.githubusercontent.com/74496368/190709822-b1097443-d390-44df-b651-fbd065c43864.png)
+![Cover 2](https://user-images.githubusercontent.com/74496368/190709840-b755ba6a-d7e0-47f8-a7e5-588aa0afb8c9.png)
+![Cover 3](https://user-images.githubusercontent.com/74496368/190709846-62227580-1959-4acc-8f27-374073b9c571.png)
