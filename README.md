@@ -1,7 +1,5 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/5f4645a6-6b9e-4ef3-bba8-8057f1a47902/deploy-status)](https://app.netlify.com/sites/procvmaker/deploys)
 
-[![CodeWars](https://www.codewars.com/users/SeanDylan1982/badges/large)](https://www.codewars.com/users/SeanDylan1982/)
-
 # Professional-CV-Template
 A Professional Standard Resume / CV Template
 
